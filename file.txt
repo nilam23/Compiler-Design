@@ -1,2 +1,5 @@
-first line of the file
-second line of the file
+int main(){
+	int a=10;
+	printf("%d", a);
+	return 0;
+}
