@@ -1,0 +1,32 @@
+--OPERATOR PRECEDENCE TABLE--
+
+         W    (    )    B    En   I    <    ;   =    *
+while    E    1    E    E    E    E    E    E    E    E
+
+(        E    E    =    E    E    0    0    E    E    0
+
+)        E    E    E    0    E    E    E    E    E    E
+
+Begin    E    E    E    E    =    0    E    0    0    E
+
+End      E    E    E    E    E    E    E    E    E    E
+
+id       E    E    1    E    E    E    1    1    1    1
+
+<        E    E    1    E    E    0    E    E    E    0
+
+;        E    E    E    E    1    0    E    0    0    E
+
+=        E    E    E    E    E    0    E    1    E    0
+
+*        E    E    1    E    E    0    1    1    E    1
+
+
+We assume-
+1- takes precedence over
+0- yeilds precedence to
+=- equal precedence
+E- Error
+Wh- while
+B- Begin
+En- End
