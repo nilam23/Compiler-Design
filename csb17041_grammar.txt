@@ -1,0 +1,18 @@
+A -> w (C) b S e
+C -> id > num
+S -> E;
+E -> id = id * num
+
+
+Explanation:
+	w stands for while
+	C stands for condition
+	b stands for Begin
+	S stands for statement
+	e stands for End
+	E stands for expression
+
+id: a|b|..|z
+num: 0|1|..|9
+Above two expansions are not considered for the grammar as well as for our main program to calculate Leading and Trailing sets,
+as id and num are terminal symbols and can't be considered to be a part of the Left Hand Side of any production rule.
